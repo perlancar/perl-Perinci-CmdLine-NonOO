@@ -23,8 +23,6 @@ die "Can't create run_cmdline_app(): $res->[0] - $res->[1]"
 1;
 # ABSTRACT: Non-OO interface for Perinci::CmdLine
 
-=for Pod::Coverage .+
-
 =head1 SYNOPSIS
 
  use Perinci::CmdLine::NonOO qw(run_cmdline_app);
