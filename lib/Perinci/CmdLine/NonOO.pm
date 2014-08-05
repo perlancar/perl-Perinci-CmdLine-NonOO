@@ -46,6 +46,11 @@ L<Perinci::CmdLine> (or its alternatives L<Perinci::CmdLine::Lite>,
 L<Perinci::CmdLine::Any>) is a command-line application framework. It "exports"
 your functions as a CLI application. However, Perinci::CmdLine itself has an OO
 interface, which can be seen as ironic. This module is an attempt to fix this.
+It's basically a thin functional interface wrapper over Perinci::CmdLine::Lite.
+
+Because I'm lazy, it currently uses L<Perinci::Sub::Gen::FromClass> and adds a
+bit of startup overhead. If you're concerned with startup overhead, you should
+use Perinci::CmdLine::Lite directly.
 
 
 =head1 SEE ALSO
