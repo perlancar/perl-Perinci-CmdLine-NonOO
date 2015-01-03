@@ -53,11 +53,6 @@ bit of startup overhead. If you're concerned with startup overhead, you should
 use Perinci::CmdLine::Lite directly.
 
 
-=head1 TODO
-
-Support switching to Perinci::CmdLine instead of Perinci::CmdLine::Lite.
-
-
 =head1 SEE ALSO
 
 L<Perinci::CmdLine>, L<Perinci::CmdLine::Lite>, L<Perinci::CmdLine::Any>
